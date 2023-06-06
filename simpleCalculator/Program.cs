@@ -36,7 +36,7 @@ namespace simpleCalculator
                         case '/':
                             if (number == 0)
                             {
-                                Console.WriteLine("Division by zero error");
+                                Console.WriteLine("This is Division by zero error");
                                 return;
                             }
                             result /= number;
